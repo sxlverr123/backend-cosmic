@@ -1,0 +1,40 @@
+{
+    "contentType": "collection",
+    "contentId": "motd-default-collection",
+    "tcId": "634e8e85-e2fc-4c68-bb10-93604cf6605f",
+    "contentItems": [
+      {
+        "contentType": "content-item",
+        "contentId": "46874c56-0973-4cbe-ac98-b580c5b36df5",
+        "tcId": "61fb3dd8-f23d-45cc-9058-058ab223ba5c",
+        "contentFields": {
+          "body": {
+            "ar": "الساحة الفردية متاحة الآن في الاتحاد الأوروبي! مع الإصدار الجديد من Cosmic، أضفنا الكثير من الميزات الجديدة إلى الساحة الرئيسية.",
+            "en": "Solo Arena is now available in EU! With the new release of Cosmic, we've got a lot of new stuff coming to the main Arena.",
+            "de": "Die Einzelarena ist jetzt in der EU verfügbar! Mit der neuen Version von Cosmic haben wir der Hauptarena viele neue Inhalte hinzugefügt.",
+            "es": "¡La Arena Individual ya está disponible en la UE! Con el nuevo lanzamiento de Cosmic, hemos añadido muchas novedades a la Arena principal.",
+            "es-419": "¡La Arena Individual ya está disponible en la UE! Con el nuevo lanzamiento de Cosmic, hemos añadido muchas novedades a la Arena principal.",
+            "fr": "L'Arène Simple est désormais disponible en Europe ! Avec la nouvelle version de Cosmic, de nombreuses nouveautés ont été ajoutées à l'Arène principale.",
+            "it": "Solo Arena è adesso disponibile in EU! Con il nuovo rilascio di Cosmic, adesso abbiamo molte nuove cose, messo in principale Arena.",
+            "ja": "シングルアリーナがEUで利用可能になりました！Cosmicの新作リリースに伴い、メインアリーナにたくさんの新要素が追加されました。",
+            "ko": "이제 EU에서 싱글 아레나를 이용할 수 있습니다! Cosmic의 새로운 출시와 함께 메인 아레나에 새로운 콘텐츠가 많이 추가되었습니다.",
+            "pl": "Pojedyncza Arena jest już dostępna w Europie! Wraz z nową wersją dodatku Cosmic, dodaliśmy mnóstwo nowości do głównej Areny.",
+            "pt-BR": "A Arena Individual já está disponível na UE! Com o novo lançamento do Cosmic, adicionamos muitas novidades à Arena principal.",
+            "ru": "Одиночная арена теперь доступна в Европе! С выходом Cosmic мы добавили много нового на главную арену."
+          },
+          "entryType": "Website",
+          "image": [
+            {
+              "width": 1920,
+              "height": 1080,
+              "url": "https://i.imgur.com/ImIwpRm.png"
+            }
+          ],
+          "videoAutoplay": false,
+          "videoLoop": false,
+          "videoMute": false,
+          "videoStreamingEnabled": false
+        }
+        }
+    ]
+}
