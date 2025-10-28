@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Epic Admin Center</title>
+    <link rel="icon" type="image/png" href="./images/arcane.png" />
+    <meta property="og:title" content="Admin Center" />
+    <meta property="og:description" content="Managing services better than before!" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/auth/login.css" />
+</head>
+<body>
+    <div class="main-container">
+        <div class="navbar">
+            <img src="./images/cosmic.png" alt="Logo" class="navbar-logo" />
+            <h3 style="margin-left: 20px; font-weight: 550; letter-spacing: 1px;">EPIC ADMIN CENTER</h3>
+            <div class="nav-items">
+                <div class="selected-item">LOGIN</div>
+            </div>
+            <button class="interaction-btn" style="display: none;">LOGIN</button>
+        </div>
+        <div class="login-container">
+            <div class="login-box">
+                <img style="border-radius: 20px;" src="./images/arcane.png" alt="Epic Games" class="logo">
+                <h2>Sign in with your Epic Admin Account</h2>
+                <form id="loginForm">
+                    <input id="authSecret" type="password" placeholder="Authorization Secret" required>
+                    <button type="submit">Log In</button>
+                    <a href="#" class="help">Dont know how to get your authorization secret?</a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+// Gestione errori immagini
+document.querySelectorAll('img').forEach(img => {
+    img.onerror = function() {
+        this.style.display = 'none';
+        console.warn('Immagine non trovata:', this.src);
+    };
+});
+</script>
+</body>
+<script src="./scripts/globals.js"></script>
+<script src="./scripts/auth/index.js"></script>
+</html>
